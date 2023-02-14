@@ -25,6 +25,30 @@
 
     <!-- hero section -->
     <section id="hero" class="h-[490px] w-full lg:h-[650px]">
+      <!-- scroll navbar -->
+      <nav
+        class="fixed -top-[175px] z-40 h-[175px] w-full border-b border-gray-300 bg-white shadow-sm transition-all duration-300 ease-in-out lg:-top-[175px] lg:h-[150px]"
+        id="navbar"
+      >
+        <div
+          class="mx-auto flex h-full max-w-screen-xl items-center justify-between px-4 pt-24 lg:px-2 lg:pt-16"
+        >
+          <img
+            src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/general_images/logos/etoro-logo-new-green.svg"
+            alt=""
+            class="h-7 w-auto object-cover lg:h-8"
+          />
+
+          <div>
+            <button
+              class="rounded-full bg-[#13c636] px-6 py-2 text-sm text-white shadow-md lg:text-base"
+            >
+              Buy Stocks
+            </button>
+          </div>
+        </div>
+      </nav>
+
       <!-- wrapper -->
       <div class="mx-auto flex h-full max-w-screen-xl flex-col px-2">
         <!-- navbar -->
@@ -592,6 +616,8 @@
               trade with eToro
             </h5>
           </div>
+
+          <!-- grid -->
           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <!-- one element -->
             <div class="col-span-1 flex w-full flex-col items-center space-y-4">
@@ -632,6 +658,15 @@
                 We will never share your private data without your permission
               </p>
             </div>
+          </div>
+
+          <!-- added cta button -->
+          <div class="flex w-full justify-center">
+            <button
+              class="rounded-full bg-[#13c636] px-14 py-3 text-lg font-medium text-white shadow-lg"
+            >
+              Buy Stocks
+            </button>
           </div>
         </div>
       </section>
@@ -693,5 +728,23 @@
         </p>
       </div>
     </footer>
+
+    <!-- JS goes here -->
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 500 ||
+          document.documentElement.scrollTop > 500
+        ) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-200px";
+        }
+      }
+    </script>
   </body>
 </html>
