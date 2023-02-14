@@ -618,6 +618,14 @@ video {
   height: 175px;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
+.\!h-64 {
+  height: 16rem !important;
+}
+
 .w-20 {
   width: 5rem;
 }
@@ -653,6 +661,14 @@ video {
 
 .\!w-96 {
   width: 24rem !important;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.\!w-52 {
+  width: 13rem !important;
 }
 
 .max-w-3xl {
@@ -748,6 +764,14 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
 }
 
 .overflow-y-scroll {
