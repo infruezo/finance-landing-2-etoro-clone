@@ -5,6 +5,10 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .title {
   font-family: "Audiowide", cursive;
 }
