@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#hero {
+  background-image: url("https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/stocks-to-watch/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #hero {
+    background-image: url("https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/stocks-to-watch/ipad_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 740px) {
+  #hero {
+    background-image: url("https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/stocks-to-watch/mobile_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
