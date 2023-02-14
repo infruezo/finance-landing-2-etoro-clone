@@ -24,7 +24,7 @@
     </section>
 
     <!-- hero section -->
-    <section id="hero" class="h-[450px] w-full lg:h-[650px]">
+    <section id="hero" class="h-[490px] w-full lg:h-[650px]">
       <!-- wrapper -->
       <div class="mx-auto flex h-full max-w-screen-xl flex-col px-2">
         <!-- navbar -->
@@ -49,12 +49,14 @@
           class="flex h-full w-full flex-col justify-evenly space-y-4 px-2 text-white"
         >
           <h5 class="text-2xl">The Analyst pick:</h5>
-          <h1
+          <div
             class="text-4xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl"
           >
-            TOP STOCKS <br />
-            <span class="text-[#13c636]">FOR Q4 2022 </span>
-          </h1>
+            <h1 class="title">
+              TOP STOCKS <br />
+              <span class="title text-[#13c636]">FOR Q4 2022 </span>
+            </h1>
+          </div>
           <h4 class="text-xl md:max-w-xl lg:text-3xl">
             eToro’s analysts have chosen the companies you should keep an eye on
             this quarter
@@ -69,9 +71,13 @@
     </section>
 
     <!-- opportunities section -->
-    <section class="">
-      <h2>Opportunities for investors in 2022</h2>
-      <p>
+    <section
+      class="mx-auto flex max-w-screen-xl flex-col space-y-8 py-12 px-2 text-gray-900 md:py-16 lg:py-20"
+    >
+      <h2 class="text-center text-xl font-bold md:text-2xl lg:text-4xl">
+        Opportunities for investors in 2022
+      </h2>
+      <p class="mx-auto max-w-3xl text-center font-medium text-gray-500">
         We are likely to continue to see market volatility for the final quarter
         — that has been present throughout 2022. However, despite market
         conditions, there are still opportunities out there for stock market
@@ -79,6 +85,95 @@
         critical and a defensive approach could see investors make the best
         returns.
       </p>
+
+      <div
+        class="grid w-full grid-cols-2 place-items-center gap-5 md:grid-cols-3 md:gap-8 lg:grid-cols-5 lg:gap-12"
+      >
+        <!-- one column -->
+        <div
+          class="col-span-1 flex h-full w-full cursor-pointer flex-col justify-center space-y-4 rounded-lg bg-gradient-to-t from-[#3183ff] to-sky-400 p-4 shadow-lg duration-300 hover:scale-105 hover:shadow-xl"
+        >
+          <img
+            src="https://etoro-cdn.etorostatic.com/market-avatars/1002/1002_3183FF_F7F7F7.svg"
+            alt=""
+            class="mx-auto h-24 w-24 object-cover"
+          />
+
+          <div class="text-sm font-semibold text-white">
+            <p>GOOG</p>
+            <p class="font-bold">-2.6%</p>
+            <p class="text-xs font-light">92.68</p>
+          </div>
+        </div>
+
+        <!-- one column -->
+        <div
+          class="col-span-1 flex h-full w-full cursor-pointer flex-col justify-center space-y-4 rounded-lg bg-gradient-to-t from-[#4c505e] to-[#7d8499] p-4 shadow-lg duration-300 hover:scale-105 hover:shadow-xl"
+        >
+          <img
+            src="https://etoro-cdn.etorostatic.com/market-avatars/1005/1005_494D5A_F7F7F7.svg"
+            alt=""
+            class="mx-auto h-24 w-24 object-cover"
+          />
+
+          <div class="text-sm font-semibold text-white">
+            <p>AMZN</p>
+            <p class="font-bold">-2.09%</p>
+            <p class="text-xs font-light">97.62</p>
+          </div>
+        </div>
+
+        <!-- one column -->
+        <div
+          class="col-span-1 flex h-full w-full cursor-pointer flex-col justify-center space-y-4 rounded-lg bg-gradient-to-t from-[#ec1c2d] to-[#fa2f4d] p-4 shadow-lg duration-300 hover:scale-105 hover:shadow-xl"
+        >
+          <img
+            src="https://etoro-cdn.etorostatic.com/market-avatars/1036/1036_ED1B2D_F7F7F7.svg"
+            alt=""
+            class="mx-auto h-24 w-24 object-cover"
+          />
+
+          <div class="text-sm font-semibold text-white">
+            <p>XOM</p>
+            <p class="font-bold">-1.42%</p>
+            <p class="text-xs font-light">116.31</p>
+          </div>
+        </div>
+
+        <!-- one column -->
+        <div
+          class="col-span-1 flex h-full w-full cursor-pointer flex-col justify-center space-y-4 rounded-lg bg-gradient-to-t from-[#1b1f74] to-[#2c36c1] p-4 shadow-lg duration-300 hover:scale-105 hover:shadow-xl"
+        >
+          <img
+            src="https://etoro-cdn.etorostatic.com/market-avatars/1046/1046_1A1F71_F7F7F7.svg"
+            alt=""
+            class="mx-auto h-24 w-24 object-cover"
+          />
+
+          <div class="text-sm font-semibold text-white">
+            <p>V</p>
+            <p class="font-bold">-0.53%</p>
+            <p class="text-xs font-light">228.04</p>
+          </div>
+        </div>
+
+        <!-- one column -->
+        <div
+          class="col-span-1 flex h-full w-full cursor-pointer flex-col justify-center space-y-4 rounded-lg bg-gradient-to-t from-[#0f248f] to-[#1a3cdf] p-4 shadow-lg duration-300 hover:scale-105 hover:shadow-xl"
+        >
+          <img
+            src="https://etoro-cdn.etorostatic.com/market-avatars/4244/4244_0F238C_F7F7F7.svg"
+            alt=""
+            class="mx-auto h-24 w-24 object-cover"
+          />
+
+          <div class="text-sm font-semibold text-white">
+            <p>ASML</p>
+            <p class="font-bold">-0.85%</p>
+            <p class="text-xs font-light">664.49</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- TODO: remove debug divs below -->
