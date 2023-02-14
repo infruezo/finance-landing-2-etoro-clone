@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>eToro Landing Page</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./custom.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
   </head>
 
   <body>
@@ -24,16 +24,16 @@
     </section>
 
     <!-- hero section -->
-    <section id="hero" class="min-h-[650px] w-full lg:min-h-[750px]">
+    <section id="hero" class="h-[450px] w-full lg:h-[650px]">
       <!-- wrapper -->
-      <div class="mx-auto max-w-screen-xl px-2">
+      <div class="mx-auto flex h-full max-w-screen-xl flex-col px-2">
         <!-- navbar -->
         <nav class="flex w-full items-center justify-between py-4">
           <!-- logo -->
           <img
             src="https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/general_images/logos/etoro-logo-new-green.svg"
             alt="logo"
-            class="h-auto w-28 object-cover"
+            class="h-auto w-20 object-cover lg:w-28"
           />
 
           <!-- right section -->
@@ -43,7 +43,42 @@
             Buy Stocks
           </button>
         </nav>
+
+        <!-- main hero text -->
+        <div
+          class="flex h-full w-full flex-col justify-evenly space-y-4 px-2 text-white"
+        >
+          <h5 class="text-2xl">The Analyst pick:</h5>
+          <h1
+            class="text-4xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl"
+          >
+            TOP STOCKS <br />
+            <span class="text-[#13c636]">FOR Q4 2022 </span>
+          </h1>
+          <h4 class="text-xl md:max-w-xl lg:text-3xl">
+            eToro’s analysts have chosen the companies you should keep an eye on
+            this quarter
+          </h4>
+          <button
+            class="w-fit rounded-full bg-[#13c636] px-8 py-2 text-xl font-medium text-white shadow-md"
+          >
+            Buy Stocks
+          </button>
+        </div>
       </div>
+    </section>
+
+    <!-- opportunities section -->
+    <section class="">
+      <h2>Opportunities for investors in 2022</h2>
+      <p>
+        We are likely to continue to see market volatility for the final quarter
+        — that has been present throughout 2022. However, despite market
+        conditions, there are still opportunities out there for stock market
+        investors. Picking the right type of investment continues to remain
+        critical and a defensive approach could see investors make the best
+        returns.
+      </p>
     </section>
 
     <!-- TODO: remove debug divs below -->
